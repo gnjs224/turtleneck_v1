@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.uploader {
+  background-color: darkgray;
+  height: "500vh";
+}
+.avatar-uploader > .ant-upload {
+  width: auto;
+}
+.login {
+  color: white;
+}
+.main {
+  color: black;
+}
