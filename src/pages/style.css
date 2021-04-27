@@ -21,3 +21,15 @@
 .main {
   color: black;
 }
+.body {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+  align-items: center;
+}
+.show {
+  width: 800px;
+
+  border-left: dashed #00000017;
+  border-right: dashed #00000017;
+}

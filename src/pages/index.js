@@ -5,3 +5,4 @@ export { default as Oleg } from "./Oleg";
 export { default as About } from "./About";
 export { default as Navigation } from "./Navigation";
 export { default as Result } from "./Result";
+export { default as SideMenu } from "./SideMenu";

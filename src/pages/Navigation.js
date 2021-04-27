@@ -10,7 +10,17 @@ function Navigation() {
     <StyledHeader>
       <nav class="navbar">
         <div class="left-menu">
-          <div>햄버거바</div>
+          <Button secondary>
+            <Link to="/menu" class="menu">
+              menu
+            </Link>
+          </Button>
+          <div class="ui sidebar inverted vertical menu">
+            <a class="item">1</a>
+            <a class="item">2</a>
+            <a class="item">3</a>
+          </div>
+          <div class="pusher"></div>
         </div>
         <div>
           <Link to="/" class="main">
