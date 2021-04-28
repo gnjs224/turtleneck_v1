@@ -4,23 +4,15 @@ import "./style.css";
 import styled from "styled-components";
 import { Layout } from "antd";
 import { Button } from "semantic-ui-react";
+import SideMenu from "./SideMenu";
 const { Header } = Layout;
+
 function Navigation() {
   return (
     <StyledHeader>
       <nav class="navbar">
         <div class="left-menu">
-          <Button secondary>
-            <Link to="/menu" class="menu">
-              menu
-            </Link>
-          </Button>
-          <div class="ui sidebar inverted vertical menu">
-            <a class="item">1</a>
-            <a class="item">2</a>
-            <a class="item">3</a>
-          </div>
-          <div class="pusher"></div>
+          <SideMenu />
         </div>
         <div>
           <Link to="/" class="main">

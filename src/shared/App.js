@@ -5,6 +5,7 @@ import Navigation from "../pages/Navigation";
 import Bottom from "../pages/Bottom";
 import "semantic-ui-css/semantic.min.css";
 import "../pages/style.css";
+
 class App extends Component {
   render() {
     return (

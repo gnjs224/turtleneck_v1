@@ -29,7 +29,15 @@
 }
 .show {
   width: 800px;
-
+  height: 80vh;
   border-left: dashed #00000017;
   border-right: dashed #00000017;
+}
+.login {
+  padding-top: 20vh;
+}
+.menubar {
+  width: 100px;
+  font-size: 10px;
+  height: auto;
 }
